@@ -1,0 +1,15 @@
+{
+  "name": "abeuscher",
+  "owner": {
+    "name": "Alex Beuscher"
+  },
+  "description": "Marketplace for abeuscher's Claude Code plugins.",
+  "plugins": [
+    {
+      "name": "session-kit",
+      "displayName": "Session Kit",
+      "source": "./plugins/session-kit",
+      "description": "Session protocol for Claude Code projects: /open-session and /close-session, backed by a plan-backed or stub-driven brief, a housekeeping capture-to-inbox flow, and per-project config."
+    }
+  ]
+}
