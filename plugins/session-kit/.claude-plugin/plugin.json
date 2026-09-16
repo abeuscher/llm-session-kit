@@ -1,0 +1,11 @@
+{
+  "name": "session-kit",
+  "displayName": "Session Kit",
+  "version": "1.0.0",
+  "description": "Session protocol for Claude Code projects: /open-session and /close-session, backed by a plan-backed or stub-driven brief, a housekeeping capture-to-inbox flow, and per-project config.",
+  "author": {
+    "name": "Alex Beuscher"
+  },
+  "license": "MIT",
+  "keywords": ["session", "workflow", "protocol"]
+}

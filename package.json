@@ -1,0 +1,15 @@
+{
+  "name": "session-kit",
+  "version": "1.0.0",
+  "description": "A Claude Code plugin with a session protocol, its templates, and two global commands: logbug and session-init.",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "logbug": "./bin/logbug.mjs",
+    "session-init": "./bin/session-init.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
