@@ -91,12 +91,17 @@ govern the work directly:
   when you can observe the result directly. Pull the user in only for judgment only a human
   can make: visual design, UX, whether an interaction feels right.
 - Match existing code conventions. No comments or type annotations on code you didn't write.
+- Speak to the user in the project's language, not this brief's. Session numbers, plan
+  entries, config keys, file paths — that's this document's register, not something to
+  repeat back. Follow the project's own `CLAUDE.md` for how to talk to them, and translate
+  on the way out. This applies to what you say, not what you write to disk.
 
 ## Session Open Gate
 
 After the reading list, starting state, and process rules are read — and before any task
 work — post a short orientation: what shape this session is, the work plan, anything that
-needs clarifying. Then wait for the user to confirm. Do not pipeline from reading into
+needs clarifying. Write it in the project's language, not this brief's — see the process
+rule above. Then wait for the user to confirm. Do not pipeline from reading into
 implementation.
 
 ## Session Close Gate

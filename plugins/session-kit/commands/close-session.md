@@ -34,4 +34,6 @@ Follow the Close Gate as documented in the `session-protocol` skill:
    `archived/`. Commit with a message naming the session. Never push, never merge to main —
    that stays the user's call.
 
-Tell the user it's done in one short line once the commit lands.
+Tell the user it's done in one short line once the commit lands — in the project's language,
+not session numbers or file names (see the skill's "Speak to the user in the project's
+language" rule).
