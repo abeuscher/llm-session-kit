@@ -46,10 +46,16 @@ Surfaced during planning, once the proposal has been read. Omit if none.
 Follow the `session-protocol` skill's process rules. Planning sessions get the model
 reserved for planning work (see the skill's model-choice note), not the project's default.
 
+This session is the likeliest place internal-handle language leaks into what the user reads
+— the proposal itself usually has its own vocabulary (milestone or phase codes, section
+numbers), and it's tempting to carry that straight into the orientation. Don't: follow the
+project's `CLAUDE.md` and describe the plan by what it builds, not by the codes it's keyed to.
+
 ## Session Open Gate
 
 After reading the list above, post a short orientation — what the proposal covers, the shape
-of the plan you're about to draft — and wait for confirmation before drafting entries.
+of the plan you're about to draft — in the project's language, not the proposal's own
+section/milestone vocabulary. Wait for confirmation before drafting entries.
 
 ## Session Close Gate
 

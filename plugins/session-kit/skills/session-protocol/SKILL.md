@@ -128,6 +128,16 @@ These apply inside every session, whatever its type or shape:
 - **Follow existing conventions.** Match the code that's already there. No comments or type
   annotations on code you didn't write. Don't add a feature, refactor, or dependency beyond
   what the session's brief specifies.
+- **Speak to the user in the project's language, not this protocol's.** A brief and this skill
+  are written in a denser register on purpose — session numbers, entry/milestone codes,
+  config keys, file paths — because that's what operating on them efficiently takes. None of
+  that belongs in anything said *to* the user: the Open Gate orientation, a status update
+  mid-session, a drift or decision flag, the Close Gate's done line. Follow the project's own
+  `CLAUDE.md` for how to talk to them (plain language, no internal handles, describe changes
+  by what they do) and translate on the way out — "the board and combat rules split across
+  three sessions", not "M1 splits into three entries." This doesn't apply to what you *write
+  to disk* — the brief, the log, the plan file — which stay in their working register for the
+  next session to read.
 
 ## Housekeeping flow
 
@@ -153,6 +163,10 @@ task work begins — post a short orientation: what shape this session is, the w
 anything that needs clarifying. Then wait for the user to confirm. Never pipeline from
 reading straight into implementation.
 
+Write the orientation itself per "Speak to the user in the project's language, not this
+protocol's" above — this is the single spot internal-handle language leaks through most
+often, because it's written right after reading a brief full of it.
+
 ## Close Gate
 
 Runs only when the user explicitly invokes `/close-session` — never suggested, never
@@ -170,6 +184,10 @@ pipelined into after tests pass or after manual verification completes. In order
    inbox and cleared incoming buffer, the next brief, anything archived. Name the session in
    the commit message. **Never push, never merge to main** — that's the user's call, on
    their own cadence.
+
+Tell the user it's done in one short line once the commit lands — per "Speak to the user in
+the project's language, not this protocol's" above, not "closed session NNN, committed on
+session-NNN."
 
 ## Kit-feedback
 
